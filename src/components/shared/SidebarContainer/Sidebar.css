@@ -1,0 +1,33 @@
+.sidebar-menu > .ant-menu-item,
+.sidebar-menu .ant-menu-submenu {
+  @apply !rounded-lg !border-none bg-white text-base font-medium !shadow-none;
+}
+
+.sidebar-menu .ant-menu-submenu {
+  @apply mx-auto w-[97%];
+}
+
+.sidebar-menu .ant-menu-sub li {
+  padding-left: 40px !important;
+  transition: none !important;
+}
+
+.ant-menu-title-content {
+  transition: none !important;
+}
+
+.ant-menu-submenu-title * {
+  color: black !important;
+}
+
+.ant-menu-submenu-title:hover svg {
+  color: white !important;
+}
+
+.ant-menu-title-content:hover {
+  color: white !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #f75908 !important;
+}
